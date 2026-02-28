@@ -9,7 +9,7 @@ defaultContentLanguage = "cn"
 # sectionPagesMenu = 'main'
 
 # Generate a nice robots.txt for SEO
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 [taxonomies]
 tag = "tags"
@@ -102,10 +102,6 @@ tag = "tags"
             name = "所有文章"
             url = "/posts/"
             weight = 2
-        [[languages.cn.menu.main]]
-            name = "关于"
-            url = "/about/"
-            weight = 3
 #   [languages.pt]
 #     title = "Bear Cub"
 #     languageName = "pt-BR 🇧🇷"

@@ -38,6 +38,8 @@ tag = "tags"
 
   # The path to your favicon
   favicon = "favicon.png"
+  
+  comments = true
 
   # These images will show up when services want to generate a preview of a link
   # to your site. Ignored if `generateSocialCard = true`. For more information

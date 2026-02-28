@@ -4,11 +4,16 @@ title = 'Tim Bai 的中文博客'
 theme = "hugo-bearcub"
 
 
-copyright = "Tim Bai (CC BY 4.0)"
+copyright = "Tim Bai (All Rights Reserved)"
 defaultContentLanguage = "cn"
+# sectionPagesMenu = 'main'
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
+
+[taxonomies]
+tag = "tags"
+
 
 # Setup syntax highlighting without inline styles. For more information about
 # why you'd want to avoid inline styles, see
@@ -28,10 +33,11 @@ enableRobotsTXT = true
   # structured data template
   title = "Tim Bai 的中文博客"
   # The description of your website
-  description = "Bear Cub Demo"
+  description = "从AI&软件工程迈向量化交易、分析与创业。"
+  tagline = "从人工智能与软件工程到量化交易、分析和创业的旅程。"
 
   # The path to your favicon
-  favicon = "images/favicon.png"
+  favicon = "favicon.png"
 
   # These images will show up when services want to generate a preview of a link
   # to your site. Ignored if `generateSocialCard = true`. For more information
@@ -86,7 +92,7 @@ enableRobotsTXT = true
     LanguageCode = "zh-CN"
     contentDir = "content"
     [languages.cn.params]
-      madeWith = "🤞"
+      madeWith = "🤞 ➕ ❤️"
     [languages.cn.menu]
         [[languages.cn.menu.main]]
             name = "首页"      # The text displayed in the navigation

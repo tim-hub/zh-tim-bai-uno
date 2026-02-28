@@ -1,7 +1,7 @@
 baseURL = 'https://zh.tim.bai.uno/'
 languageCode = 'zh-cn'
 title = 'Tim Bai 的中文博客'
-theme = "hugo-bearcub"
+theme = "hugo-beartheme-seo"
 
 
 copyright = "Tim Bai (All Rights Reserved)"

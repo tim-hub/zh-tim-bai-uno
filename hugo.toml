@@ -1,5 +1,5 @@
 baseURL = 'https://zh.tim.bai.uno/'
-languageCode = 'zh-cn'
+locale = 'zh-cn'
 title = 'Tim Bai 的中文博客'
 theme = "hugo-beartheme-seo"
 
@@ -38,7 +38,7 @@ tag = "tags"
 
   # The path to your favicon
   favicon = "favicon.png"
-  
+
   comments = true
 
   # These images will show up when services want to generate a preview of a link
@@ -91,8 +91,8 @@ tag = "tags"
 [languages]
   [languages.cn]
     title = "Tim Bai 的中文博客"
-    languageName = "zh-CN 🇺🇸"
-    LanguageCode = "zh-CN"
+    label = "zh-CN 🇺🇸"
+    locale = "zh-CN"
     contentDir = "content"
     [languages.cn.params]
       madeWith = "🤞 ➕ ❤️"

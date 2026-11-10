@@ -1,6 +1,6 @@
 +++
 date = '2026-11-11T10:00:00+13:00'
-draft = true
+draft = false
 title = '回测了 Jim Cramer 的周期图，有两点还管用'
 description = ''
 preview = ''

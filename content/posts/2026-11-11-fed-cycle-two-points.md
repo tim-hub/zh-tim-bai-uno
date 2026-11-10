@@ -13,7 +13,7 @@ Jim Cramer 有一张图，叫 "Cyclical Investing and Trading"，把 GDP 增长�
 
 *图：Jim Cramer 的 "Cyclical Investing and Trading"*
 
-所以我用 QuantConnect 的数据测了一下，日线价格，从 1998 年 9 月到 2026 年 7 月，再用 FRED 的联邦基金目标利率（[DFEDTAR](https://fred.stlouisfed.org/series/DFEDTAR) 和 [DFEDTARU](https://fred.stlouisfed.org/series/DFEDTARU)）来判断现在处在周期的哪一步。规则很简单，数连续的降息和加息（第 1、2、3、4 次），如果美联储 182 天没有动作，就算"中性"。然后图上的每一组股票，都用图上印的那些代码（这里的 PD 是 Phelps Dodge，不是 PagerDuty，差点搞错），只问一个问题，图上说该持有的时候，这组股票有没有跑赢 SPY？
+所以我用 QuantConnect 的数据测了一下，日线价格，从 1998 年 9 月到 2026 年 7 月，再用 FRED 的联邦基金目标利率（[DFEDTAR](https://fred.stlouisfed.org/series/DFEDTAR) 和 [DFEDTARU](https://fred.stlouisfed.org/series/DFEDTARU)）来判断现在处在周期的哪一步。规则很简单，数连续的降息和加息（第 1、2、3、4 次），如果美联储 182 天没有动作，就算"中性"。然后图上的每一组股票，都用图上印的那些代码（这里的 PD 是 Phelps Dodge，不是 PagerDuty），只问一个问题，图上说该持有的时候，这组股票有没有跑赢 SPY？
 
 简单说，这张图大概对一半。59 个持有窗口里，27 个跑赢 SPY（46%），等于抛硬币，2007 年之后完全按图操作，每年 +10.0%，而 SPY 是 +10.8%。2007 年之前看起来很漂亮（每年 +18.9%，SPY 只有 +5.8%），但那正是画这张图所依据的年代，当然对得上。
 
